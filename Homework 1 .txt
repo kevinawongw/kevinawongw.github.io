@@ -1,0 +1,16 @@
+https://kevinawongw.github.io/
+
+Hyperlink to mypage.html on the naviagtion bar - "Part 1 of Assignment"
+Hyperlink to mypage_bootstrap on nabigation bar - "Home"
+Hyperlink to form.html can be found by clicking the button "Add New Interest"
+
+Bootstraps:
+	1.)Navigation Bar
+	2.)Panel Container on Homepage
+	3.)Rounded Photo
+	4.)Bootstrap Table on Homepage
+	5.)Cards
+	6.)Buttons 
+	7.)Bootstrap Form
+	8.)Upload File
+	9.)Sign in Bootstrap
