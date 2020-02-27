@@ -90,20 +90,28 @@ The method should do all the validations as stated in rule 1.
 
 
 function begin_play(){
+	// Check if game has started
 	if (started == true){
 		alert ("The game has already started. Click Reset Play if you'd like to start a new game.")
 	}
+	// If not everyone has a name
 	else if(document.getElementById("player1_id").value == "" || document.getElementById("player2_id").value == ""){
 		alert("Enter a name for both players.")
 	}
+	// Conditions are filled
 	else{
+		// If the game has started
 		started = true;
+		// Always start on X's Turn
 		turn = 0;
 
+		// Disable Name Fillers
 		document.getElementById("player2_id").disabled = true;
 		document.getElementById("player1_id").disabled = true;
+		// Indicate who has X and who has O
 		document.getElementById("player1_id").value = document.getElementById("player1_id").value + " (X)";
 		document.getElementById("player2_id").value = document.getElementById("player2_id").value + " (O)";
+		// State whose turn it is
 		document.getElementById("turn_info").innerHTML = "It is " + "X".bold() + " turn: ";
 
 	}
@@ -121,15 +129,23 @@ Remember to set the strated flag as false
 
 */
 function reset_play(){
+	// Reset to the game has not started
 	started = false;
 	document.getElementById("turn_info").innerHTML = "Click Begin Play to start the game.";
 
+	// Reset everything on the board
 	for (var i =0; i<table_ids.length; i++){
 		board_state[i] = 0;
 		document.getElementById(table_ids[i]).innerText = table_ids[i];
 	}
+
+	// Reset the board state array 
 	board_state = [-1,-1,-1,-1,-1,-1,-1,-1,-1];
+
+	// Reset Movecount to be 0
 	moveCount=0;
+
+	// Reset names to be blank and enable the name fillers
 	document.getElementById("player1_id").value = '';
 	document.getElementById("player1_id").disabled = false;
 	document.getElementById("player2_id").value = '';
@@ -154,11 +170,12 @@ The method should do all the things as stated in rule 2.
 8. After all the moves have exhausted, you're not required to display any message. (It should be obvious to Reset play.)<br/>
 
 */
-
+// Helper Function to help see if there is a win
 function checkWin(board_state){
 	console.log(board_state);
 	var gameOver = false;
 	var winnerA="";
+	// If top row horizontal
 	if ((board_state[0] === board_state[1] && board_state[0] === board_state[2]) && board_state[0]!==-1){
 		if (board_state[0] == 0){
 			winnerA= "X";
@@ -170,6 +187,7 @@ function checkWin(board_state){
 		}
 			console.log("condition 1")
 	}
+	// If middle row horizontal
 	else if ((board_state[3] === board_state[4] && board_state[3] === board_state[5]) && board_state[3]!==-1){
 		if (board_state[3] == 0){
 			winnerA= "X";
@@ -181,6 +199,7 @@ function checkWin(board_state){
 		}
 		console.log("condition 2")
 	}
+	// If bottom row horizontal
 	else if ((board_state[6] === board_state[7] && board_state[6] === board_state[8]) && board_state[6]!==-1){
 		if (board_state[6] == 0){
 			winnerA= "X";
@@ -192,6 +211,7 @@ function checkWin(board_state){
 		}
 		console.log("condition 3")
 	}
+	// If Diagonal
 	else if ((board_state[0] === board_state[4] && board_state[0] === board_state[8]) && board_state[0]!==-1){
 		if (board_state[0] == 0){
 			winnerA= "X";
@@ -203,6 +223,7 @@ function checkWin(board_state){
 		}
 		console.log("condition 4")
 	}
+	// If Diagonal 
 	else if ((board_state[2] === board_state[4] && board_state[2] === board_state[6]) && board_state[2]!==-1){
 		if (board_state[2] == 0){
 			winnerA= "X";
@@ -214,6 +235,7 @@ function checkWin(board_state){
 		}
 		console.log("condition 5")
 	}
+	// If left vertical
 	else if ((board_state[0] === board_state[3] && board_state[0] === board_state[6]) && board_state[3]!==-1){
 		if (board_state[0] == 0){
 			winnerA= "X";
@@ -225,6 +247,7 @@ function checkWin(board_state){
 		}
 		console.log("condition 6")
 	}
+	// If middle vertical
 	else if ((board_state[1] === board_state[4] && board_state[1] === board_state[7]) && board_state[1]!==-1){
 		if (board_state[1] == 0){
 			winnerA= "X";
@@ -236,6 +259,7 @@ function checkWin(board_state){
 		}
 		console.log("condition 7")
 	}
+	// If Right Vertical
 	else if ((board_state[2] === board_state[5] && board_state[2] === board_state[8]) && board_state[2]!==-1){
 		gameOver =true;
 	}
@@ -245,6 +269,7 @@ function checkWin(board_state){
 
 
 function play() {
+	// Use Regex to make sure that the input is a valid space
 	var valid = /^[A-C]{1}[1-3]{1}$/g
 	// var moveCount;
 	var gameOver = false;
@@ -253,47 +278,64 @@ function play() {
 	var input = document.getElementById("move_text_id").value;
 
 	console.log(moveCount);
+	// Makes sure the regex matches
 	if (!document.getElementById("move_text_id").value.match(valid)){
 		alert("Invalid Move. Select another space.");
 	}
+	// Make sure game has started
 	else if (!game_started()){
 		alert("The game has not started! Click Begin Play to start a game!")
 	}
+	// Conditions Passed!
 	else{
+		// If something is already in that spot
 		if (document.getElementById(input).innerText == "X" || document.getElementById(input).innerText == "O"){
 			alert("That spot is already filled!");
 			return;
 		}
+		// Mark X for if turn is 0
 		else if (turn == 0){
 			document.getElementById(input).innerText = "X";
+			// Update Turn 
 			document.getElementById("turn_info").innerHTML = "It is " + "O".bold() + " turn";
 			turn = 1;
+			// Reset the move input cell
 			document.getElementById("move_text_id").value = "";
+			// Increment Count
 			moveCount++;
 		}
+
+		// Mark O for if turn is 1
 		else if (turn == 1){
 			document.getElementById(input).innerText = "O";
+			// Update turn
 			document.getElementById("turn_info").innerHTML = "It is " + "X".bold() + " turn";
 			turn = 0;
+			// Reset move input cell
 			document.getElementById("move_text_id").value = "";
+			// Increment Count
 			moveCount++;
 		}
 		for (var i = 0; i <table_ids.length;i++){
 			if(document.getElementById(table_ids[i]).innerText === "X")
 			{
+				// Update Board State array
 				board_state[i] = 0;
 				document.getElementById(table_ids[i]).innerHTML == "X";
 				document.getElementById(document.getElementById("move_text_id").value)== "X";
 			}
 			else if(document.getElementById(table_ids[i]).innerText === "O")
 			{
+				// Update Board State Array
 				board_state[i] = 1;
 				document.getElementById(table_ids[i]).innerHTML == "O";
 				document.getElementById(document.getElementById("move_text_id").value)== "O";
 			}
 		}
+		// Call the helper function
 		gameOver = checkWin(board_state);
 		console.log(gameOver)
+		// Check for tie. Ties will occur when we have 9 moves or more
 		if (moveCount == 9 && gameOver==false){
 			gameOver = true;
 			tie = true;
@@ -301,6 +343,7 @@ function play() {
 			reset_play()
 			return;
 		}
+		// If the game has ended
 		if (gameOver){
 			alert("Congratulations!")
 			reset_play();
