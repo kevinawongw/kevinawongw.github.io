@@ -17,9 +17,35 @@
       
       
       <title>About Me</title>
-      <style>
-      
 
+      <script>
+        function deleteA(divID){
+          console.log("Hi");
+          document.getElementById(divID).remove();
+        }
+        function addCard(){
+          var A = Math.random().toString(36).substring(2,10);
+          var tweet1 = $('<div class="card" id="'+A+'" style="margin-bottom:5px; height: 50px"> <div style="position: absolute; top: 0; right: 0;"><a type="button" class="btn btn-info" onclick=deleteA("'+A+'") >x</a> </div>  <img class="card-img-top" style = "margin-top:15px;" src="twitter.png" alt="twitter"> <h4 align = "right" font size = "6" style ="margin-right:5px;"> <strong>Tweet</strong></h4><p align ="right" style ="margin-right:5px;" >Sample Tweet will go here!</p> </div>');
+          tweet1.appendTo(document.getElementById("Interest_1"));
+        }
+        function addCard2(){
+          var B = Math.random().toString(36).substring(2,10);
+          var tweet2 = $('<div class="card" id="'+B+'" style="margin-bottom:5px; height: 50px" > <div style="position: absolute; top: 0; right: 0;"><a type="button" class="btn btn-info" onclick=deleteB("'+B+'") >x</a> </div>  <img class="card-img-top" style = "margin-top:15px;" src="twitter.png" alt="twitter"> <h4 align = "right" font size = "6" style ="margin-right:5px;"> <strong>Tweet</strong></h4><p align ="right" style ="margin-right:5px;" >Sample Tweet will go here!</p> </div>');
+          tweet2.appendTo(document.getElementById("Interest_2"));
+        }
+        function deleteB(divID){
+          document.getElementById(divID).remove();
+        }
+        function addCard3(){
+          var C = Math.random().toString(36).substring(2,10);
+          var tweet3 = $('<div class="card" id="'+C+'" style="margin-bottom:5px; height: 50px" > <div style="position: absolute; top: 0; right: 0;"><a type="button" class="btn btn-info" onclick=deleteB("'+C+'") >x</a> </div>  <img class="card-img-top" style = "margin-top:15px;" src="twitter.png" alt="twitter"> <h4 align = "right" font size = "6" style ="margin-right:5px;"> <strong>Tweet</strong></h4><p align ="right" style ="margin-right:5px;" >Sample Tweet will go here!</p> </div>');
+          tweet3.appendTo(document.getElementById("Interest_3"));
+        }
+
+      </script>
+
+
+      <style>
         ul {
           list-style-type: none;
           margin: 0;
@@ -99,7 +125,6 @@
         <li><a href="Homework2/tic-tac-toe/tic-tac-toe/tic-tac-toe.html">Play Tic-Tac-Toe!</a></li>
         <li><a href="Homework2/signup-modal/signup-modal/login.html">Sign Up!</a></li>
       </ul>
-
     </head>
       <body style="font-family: century gothic; font-size: 11;">
         <div class="center">
@@ -157,8 +182,9 @@
               </tr>
             </tbody>
           </table>
-          <div class=row"">
-         <h3> &#9720;Interests &#9721;</h3>
+          <h3> &#9720;Interests &#9721;</h3>
+
+          <div class="row">
          <a type="button" class="btn btn-info" href="form.html" style="margin-bottom: 2mm;">Add New Interest</a>
             </div>
          <!-- <a type="button" class="btn btn-info" href="https://github.com/kevinawongw" style=margin-left:25px;>See Cakes</a> -->
@@ -172,7 +198,7 @@
                       <h4 class="card-title">Baking</h4>
                       <p class="card-text">I have been a fan of baking since I was young! My favorite recipes are Macaroons and Ice Cream.</p>
                       <div>
-                        <a type="button" class="btn btn-info" href="#" style="margin-left:25px;">See Cakes</a>
+                        <a type="button" class="btn btn-info" style="margin-left:55px; margin-bottom: 10px;" onclick="addCard()">+</a>
                       </div>
                     </div>
                   </div>
@@ -180,9 +206,9 @@
                     <img class="card-img-top" src="isabelle.png" alt="Isabelle">
                     <div class="card-block">
                       <h4 class="card-title">Video Games</h4>
-                      <p class="card-text">I have always loved video games. My favorite games are Animal Crossing and Pokemon!</p>
+                      <p class="card-text">I have always loved video games. My favorite game is Animal Crossing!</p>
                       <div>
-                        <a type="button" class="btn btn-info" href="#" style="margin-left:25px; margin-bottom: 7px;">See Games</a>
+                        <a type="button" class="btn btn-info" style="margin-left:55px; margin-bottom: 10px;" onclick="addCard2()">+</a>
                       </div>
                     </div>
                   </div>
@@ -192,11 +218,10 @@
                       <h4 class="card-title">Bullet Journal</h4>
                       <p class="card-text">Bullet Journaling is a newer interest of mine. It keeps me organized and allows me to be creative!</p>
                       <div>
-                        <a type="button" class="btn btn-info" href="#" style="margin-left:25px;">See Journal</a>
+                        <a type="button" class="btn btn-info" style="margin-left:55px; margin-bottom: 10px;" onclick="addCard3()">+</a>
                       </div>
                     </div>
                   </div>
-
 
       	</body>
     </html>
