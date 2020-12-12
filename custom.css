@@ -278,13 +278,15 @@ strong{
     a {
     color: #000;
     text-decoration: none;
+
     }
+
 
 
     @media (min-width: 550px) {    
     a:hover {
     color: #000;
-    opacity: .9;
+    opacity: .5;
     }
 
     a img:hover {
@@ -441,12 +443,53 @@ strong{
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        background-color:     rgb(255, 249, 245)
+        background-color:     rgb(255, 249, 245);
+        margin-top: -3em;
+        padding-top: inherit;
+    
+    }
+
+    .header_about5{
+        height: 100%;
+        width: auto;
+        /* background: url(Images/logo2.gif) rgb(222, 222, 222); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color:     rgb(221, 226, 217)
+        ;
+        margin-top: -3em;
+        padding-top: inherit;
+    }
+
+    .header_about6{
+        height: 100%;
+        width: auto;
+        /* background: url(Images/logo2.gif) rgb(222, 222, 222); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color:     rgb(240, 239, 236)
         ;
         margin-top: -3em;
         padding-top: inherit;
     
     }
+
+    .header_about7{
+        height: 100%;
+        width: auto;
+        /* background: url(Images/logo2.gif) rgb(222, 222, 222); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color:     rgb(250, 241, 236)
+        ;
+        margin-top: -3em;
+        padding-top: inherit;
+    
+    }
+
 
 
     .mobile-header{
@@ -731,6 +774,11 @@ body.nav-open .mobile-logo{
   }
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+  }
+
 
 .filtered{
   opacity: .1;
@@ -902,6 +950,13 @@ body.work .four.columns{
 .text_desc {
     margin-bottom: 4em;
     font-size: 1.2em;
+    line-height: 1.4em;
+    text-align: left;
+}
+
+.text_desc2 {
+    margin-bottom: 4em;
+    font-size: 0.7em;
     line-height: 1.4em;
     text-align: left;
 }
