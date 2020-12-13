@@ -1,75 +1,74 @@
-
 /* Footer
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .footerz {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background-size: cover;
-    background-position: center center;
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background-size: cover;
+  background-position: center center;
 }
 
-
-@media (min-width: 550px) {  
-.footerz {
+@media (min-width: 550px) {
+  .footerz {
     z-index: -1;
     width: 100%;
     height: 25em;
     background-size: cover;
     background-position: center center;
-}}
-
-
-.footerz, .fade{
-    z-index: 1;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    opacity: .5;
-    text-align: center;
+  }
 }
 
-@media (min-width: 550px) {  
-.footerz:hover .fade{
+.footerz,
+.fade {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .footerz:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-    }}
-
+  }
+}
 
 .footerz_project::before {
-    content: "Nextâ€”";
+  content: "Nextâ€”";
 }
 
-.footerz_project{
-    color: #fff;
-    z-index: 2;
-    padding-left: 1em;    
-    text-align: left;
-    position: absolute;
-    width: 40%;    
-    opacity: 1;
-    top: 20%;
-    margin: auto;
-    font-size: 2em;
-    line-height: 1.05em;
-    text-transform: uppercase;  
-    background-color: transparent;
-    float: left;
+.footerz_project {
+  color: #fff;
+  z-index: 2;
+  padding-left: 1em;
+  text-align: left;
+  position: absolute;
+  width: 40%;
+  opacity: 1;
+  top: 20%;
+  margin: auto;
+  font-size: 2em;
+  line-height: 1.05em;
+  text-transform: uppercase;
+  background-color: transparent;
+  float: left;
 }
 
-@media (min-width: 550px) {  
-.footerz_project{
+@media (min-width: 550px) {
+  .footerz_project {
     padding-left: 0em;
     text-align: center;
     position: absolute;
-    width: 100%;    
+    width: 100%;
     opacity: 1;
     top: 50%;
     margin: auto;
@@ -77,3509 +76,3612 @@
     line-height: 1em;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-}}
-
-
-
+  }
+}
 
 /* Headerz + Footerz
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-
-
 /* Swish Swish
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-
-.header_swishswish{
-    width: 100%;
-    height: 25em;
-    background: url('../images/swishswish/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_swishswish {
+  width: 100%;
+  height: 25em;
+  background: url("../images/swishswish/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_swishswish {
+@media (min-width: 550px) {
+  .header_swishswish {
     width: 100%;
     height: 100vh;
-    background: url('../images/swishswish/header.jpg') rgb(222, 222, 222);
+    background: url("../images/swishswish/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_swishswish {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/swishswish/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_swishswish {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/swishswish/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_swishswish {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/swishswish/header.jpg);
     background-size: cover;
     background-position: center center;
-    }}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_swishswish:hover .fade{
+@media (min-width: 550px) {
+  .footerz_swishswish:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
-
+  }
+}
 
 /* Nike NTC
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_nikentc{
-    width: 100%;
-    height: 25em;
-    background: url('../images/nikentc/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_nikentc {
+  width: 100%;
+  height: 25em;
+  background: url("../images/nikentc/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_nikentc{
+@media (min-width: 550px) {
+  .header_nikentc {
     width: 100%;
     height: 100vh;
-    background: url('../images/nikentc/header.jpg') rgb(222, 222, 222);
+    background: url("../images/nikentc/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-    }}
-
-.footerz_nikentc {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/nikentc/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_nikentc {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/nikentc/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_nikentc {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/nikentc/header.jpg);
     background-size: cover;
     background-position: center center;
-    }}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_nikentc:hover .fade{
+@media (min-width: 550px) {
+  .footerz_nikentc:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
-
+  }
+}
 
 /* Hotpoints
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_hotpoints{
-    width: 100%;
-    height: 25em;
-    background: url('../images/hotpoints/header.png') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_hotpoints {
+  width: 100%;
+  height: 25em;
+  background: url("../images/hotpoints/header.png") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_hotpoints{
+@media (min-width: 550px) {
+  .header_hotpoints {
     width: 100%;
     height: 100vh;
-    background: url('../images/hotpoints/header.png') rgb(222, 222, 222);
+    background: url("../images/hotpoints/header.png") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-    }}
-
-.footerz_hotpoints {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/hotpoints/header.png);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_hotpoints {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/hotpoints/header.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_hotpoints {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/hotpoints/header.png);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-
-@media (min-width: 550px) {  
-.footerz_hotpoints:hover .fade{
+@media (min-width: 550px) {
+  .footerz_hotpoints:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Instagram
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_instagram{
-    width: 100%;
-    height: 25em;
-    background: url('../images/instagram/header.png') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_instagram {
+  width: 100%;
+  height: 25em;
+  background: url("../images/instagram/header.png") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_instagram{
+@media (min-width: 550px) {
+  .header_instagram {
     width: 100%;
     height: 100vh;
-    background: url('../images/instagram/header.png') rgb(222, 222, 222);
+    background: url("../images/instagram/header.png") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-    }}
-
-.footerz_instagram {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/instagram/header.png);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_instagram {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/instagram/header.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_instagram {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/instagram/header.png);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_instagram:hover .fade{
+@media (min-width: 550px) {
+  .footerz_instagram:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Dropbox Paper
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_dropboxpaper{
-    width: 100%;
-    height: 25em;
-    background: url('../images/dropboxpaper/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_dropboxpaper {
+  width: 100%;
+  height: 25em;
+  background: url("../images/dropboxpaper/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_dropboxpaper{
+@media (min-width: 550px) {
+  .header_dropboxpaper {
     width: 100%;
     height: 100vh;
-    background: url('../images/dropboxpaper/header.jpg') rgb(222, 222, 222);
+    background: url("../images/dropboxpaper/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-    }}
-
-.footerz_dropboxpaper {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/dropboxpaper/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_dropboxpaper {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/dropboxpaper/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_dropboxpaper {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/dropboxpaper/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_dropboxpaper:hover .fade{
+@media (min-width: 550px) {
+  .footerz_dropboxpaper:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Dropbox Paper
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_dropbox{
-    width: 100%;
-    height: 25em;
-    background: url('../images/dropbox/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_dropbox {
+  width: 100%;
+  height: 25em;
+  background: url("../images/dropbox/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_dropbox{
+@media (min-width: 550px) {
+  .header_dropbox {
     width: 100%;
     height: 100vh;
-    background: url('../images/dropbox/header.jpg') rgb(222, 222, 222);
+    background: url("../images/dropbox/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-    }}
-
-.footerz_dropbox {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/dropbox/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_dropbox {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/dropbox/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_dropbox {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/dropbox/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_dropbox:hover .fade{
+@media (min-width: 550px) {
+  .footerz_dropbox:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* New Balance
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_newbalance{
-    width: 100%;
-    height: 25em;
-    background: url('../images/newbalance/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_newbalance {
+  width: 100%;
+  height: 25em;
+  background: url("../images/newbalance/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_newbalance{
+@media (min-width: 550px) {
+  .header_newbalance {
     width: 100%;
-    background: url('../images/newbalance/header.jpg') rgb(222, 222, 222);
+    background: url("../images/newbalance/header.jpg") rgb(222, 222, 222);
     height: 100vh;
     background-size: cover;
     background-position: center center;
-    }}
-
-.footerz_newbalance {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/newbalance/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_newbalance {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/newbalance/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_newbalance {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/newbalance/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_newbalance:hover .fade{
+@media (min-width: 550px) {
+  .footerz_newbalance:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
-
-
+  }
+}
 
 /* Well Well
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_wellwell {
-    width: 100%;
-    height: 25em;
-    background: url('../images/wellwell/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/wellwell/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_wellwell{
+@media (min-width: 550px) {
+  .header_wellwell {
     width: 100%;
     height: 100vh;
-    background: url('../images/wellwell/header.jpg') rgb(222, 222, 222);
+    background: url("../images/wellwell/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_wellwell {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/wellwell/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_wellwell {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/wellwell/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_wellwell {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/wellwell/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_wellwell:hover .fade{
+@media (min-width: 550px) {
+  .footerz_wellwell:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Reveal
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_reveal {
-    width: 100%;
-    height: 25em;
-    background: url('../images/reveal/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/reveal/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_reveal{
+@media (min-width: 550px) {
+  .header_reveal {
     width: 100%;
     height: 100vh;
-    background: url('../images/reveal/header.jpg') rgb(222, 222, 222);
+    background: url("../images/reveal/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_reveal {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/reveal/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_reveal {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/reveal/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_reveal {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/reveal/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_reveal:hover .fade{
+@media (min-width: 550px) {
+  .footerz_reveal:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Unvael
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_unvael {
-    width: 100%;
-    height: 25em;
-    background: url('../images/unvael/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/unvael/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_unvael{
+@media (min-width: 550px) {
+  .header_unvael {
     width: 100%;
     height: 100vh;
-    background: url('../images/unvael/header.jpg') rgb(222, 222, 222);
+    background: url("../images/unvael/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_unvael {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/unvael/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_unvael {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/unvael/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_unvael {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/unvael/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_unvael:hover .fade{
+@media (min-width: 550px) {
+  .footerz_unvael:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Evolution Fresh
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_evolutionfresh {
-    width: 100%;
-    height: 25em;
-    background: url('../images/evolutionfresh/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/evolutionfresh/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_evolutionfresh{
+@media (min-width: 550px) {
+  .header_evolutionfresh {
     width: 100%;
     height: 100vh;
-    background: url('../images/evolutionfresh/header.jpg') rgb(222, 222, 222);
+    background: url("../images/evolutionfresh/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_evolutionfresh {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/evolutionfresh/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_evolutionfresh {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/evolutionfresh/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_evolutionfresh {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/evolutionfresh/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_evolutionfresh:hover .fade{
+@media (min-width: 550px) {
+  .footerz_evolutionfresh:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Chaotic Moon
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_chaoticmoon {
-    width: 100%;
-    height: 25em;
-    background: url('../images/chaoticmoon/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/chaoticmoon/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_chaoticmoon{
+@media (min-width: 550px) {
+  .header_chaoticmoon {
     width: 100%;
     height: 100vh;
-    background: url('../images/chaoticmoon/header.jpg') rgb(222, 222, 222);
+    background: url("../images/chaoticmoon/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_chaoticmoon {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/chaoticmoon/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_chaoticmoon {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/chaoticmoon/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_chaoticmoon {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/chaoticmoon/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_chaoticmoon:hover .fade{
+@media (min-width: 550px) {
+  .footerz_chaoticmoon:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
-
-
+  }
+}
 
 /* Anica + Jonpaul
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_anicajonpaul {
-    width: 100%;
-    height: 25em;
-    background: url('../images/anicajonpaul/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/anicajonpaul/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_anicajonpaul{
+@media (min-width: 550px) {
+  .header_anicajonpaul {
     width: 100%;
     height: 100vh;
-    background: url('../images/anicajonpaul/header.jpg') rgb(222, 222, 222);
+    background: url("../images/anicajonpaul/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_anicajonpaul {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/anicajonpaul/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_anicajonpaul {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/anicajonpaul/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_anicajonpaul {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/anicajonpaul/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_anicajonpaul:hover .fade{
+@media (min-width: 550px) {
+  .footerz_anicajonpaul:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Color
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_color {
-    width: 100%;
-    height: 25em;
-    background: url('../images/color/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/color/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_color{
+@media (min-width: 550px) {
+  .header_color {
     width: 100%;
     height: 100vh;
-    background: url('../images/color/header.jpg') rgb(222, 222, 222);
+    background: url("../images/color/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_color {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/color/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_color {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/color/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_color {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/color/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_color:hover .fade{
+@media (min-width: 550px) {
+  .footerz_color:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
-
+  }
+}
 
 /* Facebook
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_facebook {
-    width: 100%;
-    height: 25em;
-    background: url('../images/facebook/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/facebook/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_facebook{
+@media (min-width: 550px) {
+  .header_facebook {
     width: 100%;
     height: 100vh;
-    background: url('../images/facebook/header.jpg') rgb(222, 222, 222);
+    background: url("../images/facebook/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_facebook {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/facebook/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_facebook {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/facebook/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_facebook {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/facebook/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_facebook:hover .fade{
+@media (min-width: 550px) {
+  .footerz_facebook:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
-
+  }
+}
 
 /* Found Objects
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_foundobjects {
-    width: 100%;
-    height: 25em;
-    background: url('../images/foundobjects/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/foundobjects/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_foundobjects{
+@media (min-width: 550px) {
+  .header_foundobjects {
     width: 100%;
     height: 100vh;
-    background: url('../images/foundobjects/header.jpg') rgb(222, 222, 222);
+    background: url("../images/foundobjects/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_foundobjects {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/foundobjects/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_foundobjects {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/foundobjects/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_foundobjects {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/foundobjects/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_foundobjects:hover .fade{
+@media (min-width: 550px) {
+  .footerz_foundobjects:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Dbln Co.
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_dbln {
-    width: 100%;
-    height: 25em;
-    background: url('../images/dbln/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/dbln/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_dbln{
+@media (min-width: 550px) {
+  .header_dbln {
     width: 100%;
     height: 100vh;
-    background: url('../images/dbln/header.jpg') rgb(222, 222, 222);
+    background: url("../images/dbln/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_dbln {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/dbln/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_dbln {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/dbln/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_dbln {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/dbln/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_dbln:hover .fade{
+@media (min-width: 550px) {
+  .footerz_dbln:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Rare Glaze
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_geoaday {
-    width: 100%;
-    height: 25em;
-    background: url('../images/geoaday/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/geoaday/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_geoaday{
+@media (min-width: 550px) {
+  .header_geoaday {
     width: 100%;
     height: 100vh;
-    background: url('../images/geoaday/header.jpg') rgb(222, 222, 222);
+    background: url("../images/geoaday/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_geoaday {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/geoaday/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_geoaday {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/geoaday/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_geoaday {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/geoaday/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_geoaday:hover .fade{
+@media (min-width: 550px) {
+  .footerz_geoaday:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Kelvin
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_kelvin {
-    width: 100%;
-    height: 25em;
-    background: url('../images/kelvin/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/kelvin/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_kelvin{
+@media (min-width: 550px) {
+  .header_kelvin {
     width: 100%;
     height: 100vh;
-    background: url('../images/kelvin/header.jpg') rgb(222, 222, 222);
+    background: url("../images/kelvin/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_kelvin {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/kelvin/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_kelvin {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/kelvin/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_kelvin {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/kelvin/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_kelvin:hover .fade{
+@media (min-width: 550px) {
+  .footerz_kelvin:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Annalemma
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_annalemma {
-    width: 100%;
-    height: 25em;
-    background: url('../images/annalemma/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/annalemma/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_annalemma{
+@media (min-width: 550px) {
+  .header_annalemma {
     width: 100%;
     height: 100vh;
-    background: url('../images/annalemma/header.jpg') rgb(222, 222, 222);
+    background: url("../images/annalemma/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_annalemma {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/annalemma/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_annalemma {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/annalemma/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_annalemma {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/annalemma/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_annalemma:hover .fade{
+@media (min-width: 550px) {
+  .footerz_annalemma:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
-
+  }
+}
 
 /* Facebook Home
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_facebookhome {
-    width: 100%;
-    height: 25em;
-    background: url('../images/facebookhome/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/facebookhome/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_facebookhome{
+@media (min-width: 550px) {
+  .header_facebookhome {
     width: 100%;
     height: 100vh;
-    background: url('../images/facebookhome/header.jpg') rgb(222, 222, 222);
+    background: url("../images/facebookhome/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_facebookhome {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/facebookhome/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_facebookhome {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/facebookhome/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_facebookhome {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/facebookhome/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_facebookhome:hover .fade{
+@media (min-width: 550px) {
+  .footerz_facebookhome:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Chomp
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_chomp{
-    width: 100%;
-    height: 25em;
-    background: url('../images/chomp/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_chomp {
+  width: 100%;
+  height: 25em;
+  background: url("../images/chomp/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_chomp{
+@media (min-width: 550px) {
+  .header_chomp {
     width: 100%;
     height: 100vh;
-    background: url('../images/chomp/header.jpg') rgb(222, 222, 222);
+    background: url("../images/chomp/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_chomp {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/chomp/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_chomp {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/chomp/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_chomp {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/chomp/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_chomp:hover .fade{
+@media (min-width: 550px) {
+  .footerz_chomp:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
-
+  }
+}
 
 /* Facebook Paper
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .header_facebookpaper {
-    width: 100%;
-    height: 25em;
-    background: url('../images/facebookpaper/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+  width: 100%;
+  height: 25em;
+  background: url("../images/facebookpaper/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_facebookpaper{
+@media (min-width: 550px) {
+  .header_facebookpaper {
     width: 100%;
     height: 100vh;
-    background: url('../images/facebookpaper/header.jpg') rgb(222, 222, 222);
+    background: url("../images/facebookpaper/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_facebookpaper {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/facebookpaper/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-@media (min-width: 550px) {  
 .footerz_facebookpaper {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/facebookpaper/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_facebookpaper {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/facebookpaper/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_facebookpaper:hover .fade{
+@media (min-width: 550px) {
+  .footerz_facebookpaper:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
-
-
+  }
+}
 
 /* Steven Taylor
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_steventaylor{
-    width: 100%;
-    height: 25em;
-    background: url('../images/steventaylor/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_steventaylor {
+  width: 100%;
+  height: 25em;
+  background: url("../images/steventaylor/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_steventaylor{
+@media (min-width: 550px) {
+  .header_steventaylor {
     width: 100%;
     height: 100vh;
-    background: url('../images/steventaylor/header.jpg') rgb(222, 222, 222);
+    background: url("../images/steventaylor/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_steventaylor {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/steventaylor/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_steventaylor {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/steventaylor/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_steventaylor {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/steventaylor/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_steventaylor:hover .fade{
+@media (min-width: 550px) {
+  .footerz_steventaylor:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
-
+  }
+}
 
 /* Olderbrother
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_olderbrother{
-    width: 100%;
-    height: 25em;
-    background: url('../images/olderbrother/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_olderbrother {
+  width: 100%;
+  height: 25em;
+  background: url("../images/olderbrother/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_olderbrother{
+@media (min-width: 550px) {
+  .header_olderbrother {
     width: 100%;
     height: 100vh;
-    background: url('../images/olderbrother/header.jpg') rgb(222, 222, 222);
+    background: url("../images/olderbrother/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_olderbrother {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/olderbrother/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_olderbrother {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/olderbrother/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_olderbrother {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/olderbrother/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_olderbrother:hover .fade{
+@media (min-width: 550px) {
+  .footerz_olderbrother:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* Fiction
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_fiction{
-    width: 100%;
-    height: 25em;
-    background: url('../images/fiction/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_fiction {
+  width: 100%;
+  height: 25em;
+  background: url("../images/fiction/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_fiction{
+@media (min-width: 550px) {
+  .header_fiction {
     width: 100%;
     height: 100vh;
-    background: url('../images/fiction/header.jpg') rgb(222, 222, 222);
+    background: url("../images/fiction/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_fiction {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/fiction/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_fiction {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/fiction/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_fiction {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/fiction/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_fiction:hover .fade{
+@media (min-width: 550px) {
+  .footerz_fiction:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Fortune
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_fortune{
-    width: 100%;
-    height: 25em;
-    background: url('../images/fortune/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_fortune {
+  width: 100%;
+  height: 25em;
+  background: url("../images/fortune/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_fortune{
+@media (min-width: 550px) {
+  .header_fortune {
     width: 100%;
     height: 100vh;
-    background: url('../images/fortune/header.jpg') rgb(222, 222, 222);
+    background: url("../images/fortune/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_fortune {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/fortune/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_fortune {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/fortune/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_fortune {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/fortune/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_fortune:hover .fade{
+@media (min-width: 550px) {
+  .footerz_fortune:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* Grain and Gram
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_grainandgram{
-    width: 100%;
-    height: 25em;
-    background: url('../images/grainandgram/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_grainandgram {
+  width: 100%;
+  height: 25em;
+  background: url("../images/grainandgram/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_grainandgram{
+@media (min-width: 550px) {
+  .header_grainandgram {
     width: 100%;
     height: 100vh;
-    background: url('../images/grainandgram/header.jpg') rgb(222, 222, 222);
+    background: url("../images/grainandgram/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_grainandgram {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/grainandgram/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_grainandgram {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/grainandgram/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_grainandgram {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/grainandgram/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_grainandgram:hover .fade{
+@media (min-width: 550px) {
+  .footerz_grainandgram:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* Cork
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_cork{
-    width: 100%;
-    height: 25em;
-    background: url('../images/cork/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_cork {
+  width: 100%;
+  height: 25em;
+  background: url("../images/cork/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_cork{
+@media (min-width: 550px) {
+  .header_cork {
     width: 100%;
     height: 100vh;
-    background: url('../images/cork/header.jpg') rgb(222, 222, 222);
+    background: url("../images/cork/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_cork {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/cork/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_cork {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/cork/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_cork {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/cork/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_cork:hover .fade{
+@media (min-width: 550px) {
+  .footerz_cork:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* bloom
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_bloom{
-    width: 100%;
-    height: 25em;
-    background: url('../images/bloom/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_bloom {
+  width: 100%;
+  height: 25em;
+  background: url("../images/bloom/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_bloom{
+@media (min-width: 550px) {
+  .header_bloom {
     width: 100%;
     height: 100vh;
-    background: url('../images/bloom/header.jpg') rgb(222, 222, 222);
+    background: url("../images/bloom/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_bloom {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/bloom/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_bloom {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/bloom/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_bloom {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/bloom/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_bloom:hover .fade{
+@media (min-width: 550px) {
+  .footerz_bloom:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* emotivespaces
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_emotivespaces{
-    width: 100%;
-    height: 25em;
-    background: url('../images/emotivespaces/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_emotivespaces {
+  width: 100%;
+  height: 25em;
+  background: url("../images/emotivespaces/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_emotivespaces{
+@media (min-width: 550px) {
+  .header_emotivespaces {
     width: 100%;
     height: 100vh;
-    background: url('../images/emotivespaces/header.jpg') rgb(222, 222, 222);
+    background: url("../images/emotivespaces/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_emotivespaces {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/emotivespaces/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_emotivespaces {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/emotivespaces/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_emotivespaces {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/emotivespaces/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_emotivespaces:hover .fade{
+@media (min-width: 550px) {
+  .footerz_emotivespaces:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* softs
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_softs{
-    width: 100%;
-    height: 25em;
-    background: url('../images/softs/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_softs {
+  width: 100%;
+  height: 25em;
+  background: url("../images/softs/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_softs{
+@media (min-width: 550px) {
+  .header_softs {
     width: 100%;
     height: 100vh;
-    background: url('../images/softs/header.jpg') rgb(222, 222, 222);
+    background: url("../images/softs/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_softs {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/softs/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_softs {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/softs/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_softs {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/softs/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_softs:hover .fade{
+@media (min-width: 550px) {
+  .footerz_softs:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* memphisfoam
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_memphisfoam{
-    width: 100%;
-    height: 25em;
-    background: url('../images/memphisfoam/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_memphisfoam {
+  width: 100%;
+  height: 25em;
+  background: url("../images/memphisfoam/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_memphisfoam{
+@media (min-width: 550px) {
+  .header_memphisfoam {
     width: 100%;
     height: 100vh;
-    background: url('../images/memphisfoam/header.jpg') rgb(222, 222, 222);
+    background: url("../images/memphisfoam/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_memphisfoam {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/memphisfoam/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_memphisfoam {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/memphisfoam/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_memphisfoam {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/memphisfoam/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_memphisfoam:hover .fade{
+@media (min-width: 550px) {
+  .footerz_memphisfoam:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* clouds
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_clouds{
-    width: 100%;
-    height: 25em;
-    background: url('../images/clouds/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_clouds {
+  width: 100%;
+  height: 25em;
+  background: url("../images/clouds/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_clouds{
+@media (min-width: 550px) {
+  .header_clouds {
     width: 100%;
     height: 100vh;
-    background: url('../images/clouds/header.jpg') rgb(222, 222, 222);
+    background: url("../images/clouds/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_clouds {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/clouds/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_clouds {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/clouds/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_clouds {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/clouds/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_clouds:hover .fade{
+@media (min-width: 550px) {
+  .footerz_clouds:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* folds
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_folds{
-    width: 100%;
-    height: 25em;
-    background: url('../images/folds/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_folds {
+  width: 100%;
+  height: 25em;
+  background: url("../images/folds/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_folds{
+@media (min-width: 550px) {
+  .header_folds {
     width: 100%;
     height: 100vh;
-    background: url('../images/folds/header.jpg') rgb(222, 222, 222);
+    background: url("../images/folds/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_folds {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/folds/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_folds {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/folds/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_folds {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/folds/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_folds:hover .fade{
+@media (min-width: 550px) {
+  .footerz_folds:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
-
+  }
+}
 
 /* squished
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_squished{
-    width: 100%;
-    height: 25em;
-    background: url('../images/squished/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_squished {
+  width: 100%;
+  height: 25em;
+  background: url("../images/squished/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_squished{
+@media (min-width: 550px) {
+  .header_squished {
     width: 100%;
     height: 100vh;
-    background: url('../images/squished/header.jpg') rgb(222, 222, 222);
+    background: url("../images/squished/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_squished {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/squished/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_squished {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/squished/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_squished {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/squished/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_squished:hover .fade{
+@media (min-width: 550px) {
+  .footerz_squished:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* sunsettech
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_sunsettech{
-    width: 100%;
-    height: 25em;
-    background: url('../images/sunsettech/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_sunsettech {
+  width: 100%;
+  height: 25em;
+  background: url("../images/sunsettech/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_sunsettech{
+@media (min-width: 550px) {
+  .header_sunsettech {
     width: 100%;
     height: 100vh;
-    background: url('../images/sunsettech/header.jpg') rgb(222, 222, 222);
+    background: url("../images/sunsettech/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_sunsettech {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/sunsettech/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_sunsettech {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/sunsettech/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_sunsettech {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/sunsettech/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_sunsettech:hover .fade{
+@media (min-width: 550px) {
+  .footerz_sunsettech:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* marleighculver
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_marleighculver{
-    width: 100%;
-    height: 25em;
-    background: url('../images/marleighculver/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_marleighculver {
+  width: 100%;
+  height: 25em;
+  background: url("../images/marleighculver/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_marleighculver{
+@media (min-width: 550px) {
+  .header_marleighculver {
     width: 100%;
     height: 100vh;
-    background: url('../images/marleighculver/header.jpg') rgb(222, 222, 222);
+    background: url("../images/marleighculver/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_marleighculver {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/marleighculver/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_marleighculver {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/marleighculver/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_marleighculver {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/marleighculver/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_marleighculver:hover .fade{
+@media (min-width: 550px) {
+  .footerz_marleighculver:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* deskobjects
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_deskobjects{
-    width: 100%;
-    height: 25em;
-    background: url('../images/deskobjects/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_deskobjects {
+  width: 100%;
+  height: 25em;
+  background: url("../images/deskobjects/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_deskobjects{
+@media (min-width: 550px) {
+  .header_deskobjects {
     width: 100%;
     height: 100vh;
-    background: url('../images/deskobjects/header.jpg') rgb(222, 222, 222);
+    background: url("../images/deskobjects/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_deskobjects {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/deskobjects/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_deskobjects {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/deskobjects/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_deskobjects {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/deskobjects/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_deskobjects:hover .fade{
+@media (min-width: 550px) {
+  .footerz_deskobjects:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* quartzy
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_quartzy{
-    width: 100%;
-    height: 25em;
-    background: url('../images/quartzy/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_quartzy {
+  width: 100%;
+  height: 25em;
+  background: url("../images/quartzy/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_quartzy{
+@media (min-width: 550px) {
+  .header_quartzy {
     width: 100%;
     height: 100vh;
-    background: url('../images/quartzy/header.jpg') rgb(222, 222, 222);
+    background: url("../images/quartzy/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_quartzy {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/quartzy/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_quartzy {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/quartzy/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_quartzy {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/quartzy/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_quartzy:hover .fade{
+@media (min-width: 550px) {
+  .footerz_quartzy:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* coffee
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_coffee{
-    width: 100%;
-    height: 25em;
-    background: url('../images/coffee/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_coffee {
+  width: 100%;
+  height: 25em;
+  background: url("../images/coffee/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_coffee{
+@media (min-width: 550px) {
+  .header_coffee {
     width: 100%;
     height: 100vh;
-    background: url('../images/coffee/header.jpg') rgb(222, 222, 222);
+    background: url("../images/coffee/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_coffee {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/coffee/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_coffee {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/coffee/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_coffee {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/coffee/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_coffee:hover .fade{
+@media (min-width: 550px) {
+  .footerz_coffee:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* zero
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_zero{
-    width: 100%;
-    height: 25em;
-    background: url('../images/zero/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_zero {
+  width: 100%;
+  height: 25em;
+  background: url("../images/zero/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_zero{
+@media (min-width: 550px) {
+  .header_zero {
     width: 100%;
     height: 100vh;
-    background: url('../images/zero/header.jpg') rgb(222, 222, 222);
+    background: url("../images/zero/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_zero {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/zero/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_zero {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/zero/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_zero {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/zero/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_zero:hover .fade{
+@media (min-width: 550px) {
+  .footerz_zero:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* nifty
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_nifty{
-    width: 100%;
-    height: 25em;
-    background: url('../images/nifty/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_nifty {
+  width: 100%;
+  height: 25em;
+  background: url("../images/nifty/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_nifty{
+@media (min-width: 550px) {
+  .header_nifty {
     width: 100%;
     height: 100vh;
-    background: url('../images/nifty/header.jpg') rgb(222, 222, 222);
+    background: url("../images/nifty/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_nifty {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/nifty/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_nifty {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/nifty/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_nifty {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/nifty/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_nifty:hover .fade{
+@media (min-width: 550px) {
+  .footerz_nifty:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* gardengrove
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_gardengrove{
-    width: 100%;
-    height: 25em;
-    background: url('../images/gardengrove/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_gardengrove {
+  width: 100%;
+  height: 25em;
+  background: url("../images/gardengrove/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_gardengrove{
+@media (min-width: 550px) {
+  .header_gardengrove {
     width: 100%;
     height: 100vh;
-    background: url('../images/gardengrove/header.jpg') rgb(222, 222, 222);
+    background: url("../images/gardengrove/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_gardengrove {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/gardengrove/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_gardengrove {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/gardengrove/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_gardengrove {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/gardengrove/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_gardengrove:hover .fade{
+@media (min-width: 550px) {
+  .footerz_gardengrove:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* robinhoodgold
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_robinhoodgold{
-    width: 100%;
-    height: 25em;
-    background: url('../images/robinhoodgold/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_robinhoodgold {
+  width: 100%;
+  height: 25em;
+  background: url("../images/robinhoodgold/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_robinhoodgold{
+@media (min-width: 550px) {
+  .header_robinhoodgold {
     width: 100%;
     height: 100vh;
-    background: url('../images/robinhoodgold/header.jpg') rgb(222, 222, 222);
+    background: url("../images/robinhoodgold/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_robinhoodgold {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/robinhoodgold/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_robinhoodgold {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/robinhoodgold/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_robinhoodgold {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/robinhoodgold/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_robinhoodgold:hover .fade{
+@media (min-width: 550px) {
+  .footerz_robinhoodgold:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* innercity
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_innercity{
-    width: 100%;
-    height: 25em;
-    background: url('../images/innercity/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_innercity {
+  width: 100%;
+  height: 25em;
+  background: url("../images/innercity/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_innercity{
+@media (min-width: 550px) {
+  .header_innercity {
     width: 100%;
     height: 100vh;
-    background: url('../images/innercity/header.jpg') rgb(222, 222, 222);
+    background: url("../images/innercity/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_innercity {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/innercity/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_innercity {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/innercity/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_innercity {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/innercity/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_innercity:hover .fade{
+@media (min-width: 550px) {
+  .footerz_innercity:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* frameio
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_frameio{
-    width: 100%;
-    height: 25em;
-    background: url('../images/frameio/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_frameio {
+  width: 100%;
+  height: 25em;
+  background: url("../images/frameio/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_frameio{
+@media (min-width: 550px) {
+  .header_frameio {
     width: 100%;
     height: 100vh;
-    background: url('../images/frameio/header.jpg') rgb(222, 222, 222);
+    background: url("../images/frameio/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_frameio {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/frameio/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_frameio {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/frameio/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_frameio {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/frameio/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_frameio:hover .fade{
+@media (min-width: 550px) {
+  .footerz_frameio:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* dreem
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_dreem{
-    width: 100%;
-    height: 25em;
-    background: url('../images/dreem/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_dreem {
+  width: 100%;
+  height: 25em;
+  background: url("../images/dreem/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_dreem{
+@media (min-width: 550px) {
+  .header_dreem {
     width: 100%;
     height: 100vh;
-    background: url('../images/dreem/header.jpg') rgb(222, 222, 222);
+    background: url("../images/dreem/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_dreem {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/dreem/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_dreem {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/dreem/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_dreem {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/dreem/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_dreem:hover .fade{
+@media (min-width: 550px) {
+  .footerz_dreem:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* daydream
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_daydream{
-    width: 100%;
-    height: 25em;
-    background: url('../images/daydream/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_daydream {
+  width: 100%;
+  height: 25em;
+  background: url("../images/daydream/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_daydream{
+@media (min-width: 550px) {
+  .header_daydream {
     width: 100%;
     height: 100vh;
-    background: url('../images/daydream/header.jpg') rgb(222, 222, 222);
+    background: url("../images/daydream/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_daydream {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/daydream/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_daydream {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/daydream/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_daydream {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/daydream/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_daydream:hover .fade{
+@media (min-width: 550px) {
+  .footerz_daydream:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* corkcicle
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_corkcicle{
-    width: 100%;
-    height: 25em;
-    background: url('../images/corkcicle/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_corkcicle {
+  width: 100%;
+  height: 25em;
+  background: url("../images/corkcicle/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_corkcicle{
+@media (min-width: 550px) {
+  .header_corkcicle {
     width: 100%;
     height: 100vh;
-    background: url('../images/corkcicle/header.jpg') rgb(222, 222, 222);
+    background: url("../images/corkcicle/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_corkcicle {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/corkcicle/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_corkcicle {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/corkcicle/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_corkcicle {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/corkcicle/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_corkcicle:hover .fade{
+@media (min-width: 550px) {
+  .footerz_corkcicle:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* acoqui
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_acoqui{
-    width: 100%;
-    height: 25em;
-    background: url('../images/acoqui/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_acoqui {
+  width: 100%;
+  height: 25em;
+  background: url("../images/acoqui/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_acoqui{
+@media (min-width: 550px) {
+  .header_acoqui {
     width: 100%;
     height: 100vh;
-    background: url('../images/acoqui/header.jpg') rgb(222, 222, 222);
+    background: url("../images/acoqui/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_acoqui {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/acoqui/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_acoqui {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/acoqui/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_acoqui {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/acoqui/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_acoqui:hover .fade{
+@media (min-width: 550px) {
+  .footerz_acoqui:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* ubervalentines
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_ubervalentines{
-    width: 100%;
-    height: 25em;
-    background: url('../images/ubervalentines/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_ubervalentines {
+  width: 100%;
+  height: 25em;
+  background: url("../images/ubervalentines/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_ubervalentines{
+@media (min-width: 550px) {
+  .header_ubervalentines {
     width: 100%;
     height: 100vh;
-    background: url('../images/ubervalentines/header.jpg') rgb(222, 222, 222);
+    background: url("../images/ubervalentines/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_ubervalentines {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/ubervalentines/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_ubervalentines {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/ubervalentines/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_ubervalentines {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/ubervalentines/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_ubervalentines:hover .fade{
+@media (min-width: 550px) {
+  .footerz_ubervalentines:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* commuter
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_commuter{
-    width: 100%;
-    height: 25em;
-    background: url('../images/commuter/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_commuter {
+  width: 100%;
+  height: 25em;
+  background: url("../images/commuter/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_commuter{
+@media (min-width: 550px) {
+  .header_commuter {
     width: 100%;
     height: 100vh;
-    background: url('../images/commuter/header.jpg') rgb(222, 222, 222);
+    background: url("../images/commuter/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_commuter {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/commuter/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_commuter {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/commuter/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_commuter {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/commuter/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_commuter:hover .fade{
+@media (min-width: 550px) {
+  .footerz_commuter:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* dreamspace
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_dreamspace{
-    width: 100%;
-    height: 25em;
-    background: url('../images/dreamspace/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_dreamspace {
+  width: 100%;
+  height: 25em;
+  background: url("../images/dreamspace/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_dreamspace{
+@media (min-width: 550px) {
+  .header_dreamspace {
     width: 100%;
     height: 100vh;
-    background: url('../images/dreamspace/header.jpg') rgb(222, 222, 222);
+    background: url("../images/dreamspace/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_dreamspace {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/dreamspace/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_dreamspace {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/dreamspace/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_dreamspace {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/dreamspace/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_dreamspace:hover .fade{
+@media (min-width: 550px) {
+  .footerz_dreamspace:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* yaboiii
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_yaboiii{
-    width: 100%;
-    height: 25em;
-    background: url('../images/yaboiii/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_yaboiii {
+  width: 100%;
+  height: 25em;
+  background: url("../images/yaboiii/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_yaboiii{
+@media (min-width: 550px) {
+  .header_yaboiii {
     width: 100%;
     height: 100vh;
-    background: url('../images/yaboiii/header.jpg') rgb(222, 222, 222);
+    background: url("../images/yaboiii/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_yaboiii {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/yaboiii/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_yaboiii {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/yaboiii/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_yaboiii {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/yaboiii/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_yaboiii:hover .fade{
+@media (min-width: 550px) {
+  .footerz_yaboiii:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* intercom
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_intercom{
-    width: 100%;
-    height: 25em;
-    background: url('../images/intercom/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_intercom {
+  width: 100%;
+  height: 25em;
+  background: url("../images/intercom/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_intercom{
+@media (min-width: 550px) {
+  .header_intercom {
     width: 100%;
     height: 100vh;
-    background: url('../images/intercom/header.jpg') rgb(222, 222, 222);
+    background: url("../images/intercom/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_intercom {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/intercom/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_intercom {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/intercom/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_intercom {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/intercom/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_intercom:hover .fade{
+@media (min-width: 550px) {
+  .footerz_intercom:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* mirrors
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_mirrors{
-    width: 100%;
-    height: 25em;
-    background: url('../images/mirrors/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_mirrors {
+  width: 100%;
+  height: 25em;
+  background: url("../images/mirrors/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_mirrors{
+@media (min-width: 550px) {
+  .header_mirrors {
     width: 100%;
     height: 100vh;
-    background: url('../images/mirrors/header.jpg') rgb(222, 222, 222);
+    background: url("../images/mirrors/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_mirrors {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/mirrors/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_mirrors {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/mirrors/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_mirrors {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/mirrors/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_mirrors:hover .fade{
+@media (min-width: 550px) {
+  .footerz_mirrors:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* squarespace
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_squarespace{
-    width: 100%;
-    height: 25em;
-    background: url('../images/squarespace/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_squarespace {
+  width: 100%;
+  height: 25em;
+  background: url("../images/squarespace/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_squarespace{
+@media (min-width: 550px) {
+  .header_squarespace {
     width: 100%;
     height: 100vh;
-    background: url('../images/squarespace/header.jpg') rgb(222, 222, 222);
+    background: url("../images/squarespace/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_squarespace {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/squarespace/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_squarespace {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/squarespace/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_squarespace {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/squarespace/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_squarespace:hover .fade{
+@media (min-width: 550px) {
+  .footerz_squarespace:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* stringtheory
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_stringtheory{
-    width: 100%;
-    height: 25em;
-    background: url('../images/stringtheory/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_stringtheory {
+  width: 100%;
+  height: 25em;
+  background: url("../images/stringtheory/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_stringtheory{
+@media (min-width: 550px) {
+  .header_stringtheory {
     width: 100%;
     height: 100vh;
-    background: url('../images/stringtheory/header.jpg') rgb(222, 222, 222);
+    background: url("../images/stringtheory/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_stringtheory {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/stringtheory/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_stringtheory {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/stringtheory/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_stringtheory {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/stringtheory/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_stringtheory:hover .fade{
+@media (min-width: 550px) {
+  .footerz_stringtheory:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* papermarbling
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_papermarbling{
-    width: 100%;
-    height: 25em;
-    background: url('../images/papermarbling/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_papermarbling {
+  width: 100%;
+  height: 25em;
+  background: url("../images/papermarbling/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_papermarbling{
+@media (min-width: 550px) {
+  .header_papermarbling {
     width: 100%;
     height: 100vh;
-    background: url('../images/papermarbling/header.jpg') rgb(222, 222, 222);
+    background: url("../images/papermarbling/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_papermarbling {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/papermarbling/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_papermarbling {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/papermarbling/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_papermarbling {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/papermarbling/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_papermarbling:hover .fade{
+@media (min-width: 550px) {
+  .footerz_papermarbling:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* liquidmetal
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_liquidmetal{
-    width: 100%;
-    height: 25em;
-    background: url('../images/liquidmetal/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_liquidmetal {
+  width: 100%;
+  height: 25em;
+  background: url("../images/liquidmetal/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_liquidmetal{
+@media (min-width: 550px) {
+  .header_liquidmetal {
     width: 100%;
     height: 100vh;
-    background: url('../images/liquidmetal/header.jpg') rgb(222, 222, 222);
+    background: url("../images/liquidmetal/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_liquidmetal {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/liquidmetal/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_liquidmetal {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/liquidmetal/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_liquidmetal {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/liquidmetal/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_liquidmetal:hover .fade{
+@media (min-width: 550px) {
+  .footerz_liquidmetal:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* Goodness
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_goodness{
-    width: 100%;
-    height: 25em;
-    background: url('../images/goodness/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_goodness {
+  width: 100%;
+  height: 25em;
+  background: url("../images/goodness/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_goodness{
+@media (min-width: 550px) {
+  .header_goodness {
     width: 100%;
     height: 100vh;
-    background: url('../images/goodness/header.jpg') rgb(222, 222, 222);
+    background: url("../images/goodness/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_goodness {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/goodness/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_goodness {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/goodness/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_goodness {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/goodness/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_goodness:hover .fade{
+@media (min-width: 550px) {
+  .footerz_goodness:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* ThreeKit
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_threekit{
-    width: 100%;
-    height: 25em;
-    background: url('../images/threekit/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_threekit {
+  width: 100%;
+  height: 25em;
+  background: url("../images/threekit/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_threekit{
+@media (min-width: 550px) {
+  .header_threekit {
     width: 100%;
     height: 100vh;
-    background: url('../images/threekit/header.jpg') rgb(222, 222, 222);
+    background: url("../images/threekit/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_threekit {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/threekit/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_threekit {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/threekit/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_threekit {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/threekit/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_threekit:hover .fade{
+@media (min-width: 550px) {
+  .footerz_threekit:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* Blast
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_blast{
-    width: 100%;
-    height: 25em;
-    background: url('../images/blast/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
+.header_blast {
+  width: 100%;
+  height: 25em;
+  background: url("../images/blast/header.jpg") rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_blast{
+@media (min-width: 550px) {
+  .header_blast {
     width: 100%;
     height: 100vh;
-    background: url('../images/blast/header.jpg') rgb(222, 222, 222);
+    background: url("../images/blast/header.jpg") rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_blast {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/blast/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_blast {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/blast/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_blast {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/blast/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_blast:hover .fade{
+@media (min-width: 550px) {
+  .footerz_blast:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* isolationchair
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_isolationchair{
-    width: 100%;
-    height: 25em;
-    background: url('../images/isolationchair/header.jpg');
-    background-size: cover;
-    background-position: center center;
+.header_isolationchair {
+  width: 100%;
+  height: 25em;
+  background: url("../images/isolationchair/header.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_isolationchair{
+@media (min-width: 550px) {
+  .header_isolationchair {
     width: 100%;
     height: 100vh;
-    background: url('../images/isolationchair/header.jpg');
+    background: url("../images/isolationchair/header.jpg");
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_isolationchair {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/isolationchair/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_isolationchair {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/isolationchair/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_isolationchair {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/isolationchair/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_isolationchair:hover .fade{
+@media (min-width: 550px) {
+  .footerz_isolationchair:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* sculpturegarden
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_sculpturegarden{
-    width: 100%;
-    height: 25em;
-    background: url('../images/sculpturegarden/header.jpg');
-    background-size: cover;
-    background-position: center center;
+.header_sculpturegarden {
+  width: 100%;
+  height: 25em;
+  background: url("../images/sculpturegarden/header.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_sculpturegarden{
+@media (min-width: 550px) {
+  .header_sculpturegarden {
     width: 100%;
     height: 100vh;
-    background: url('../images/sculpturegarden/header.jpg');
+    background: url("../images/sculpturegarden/header.jpg");
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_sculpturegarden {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/sculpturegarden/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_sculpturegarden {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/sculpturegarden/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_sculpturegarden {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/sculpturegarden/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_sculpturegarden:hover .fade{
+@media (min-width: 550px) {
+  .footerz_sculpturegarden:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* portalspaces
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_portalspaces{
-    width: 100%;
-    height: 25em;
-    background: url('../images/portalspaces/header.jpg');
-    background-size: cover;
-    background-position: center center;
+.header_portalspaces {
+  width: 100%;
+  height: 25em;
+  background: url("../images/portalspaces/header.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_portalspaces{
+@media (min-width: 550px) {
+  .header_portalspaces {
     width: 100%;
     height: 100vh;
-    background: url('../images/portalspaces/header.jpg');
+    background: url("../images/portalspaces/header.jpg");
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_portalspaces {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/portalspaces/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_portalspaces {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/portalspaces/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_portalspaces {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/portalspaces/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_portalspaces:hover .fade{
+@media (min-width: 550px) {
+  .footerz_portalspaces:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
 
 /* moldedgradientchair
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
-.header_moldedgradientchair{
-    width: 100%;
-    height: 25em;
-    background: url('../images/moldedgradientchair/header.jpg');
-    background-size: cover;
-    background-position: center center;
+.header_moldedgradientchair {
+  width: 100%;
+  height: 25em;
+  background: url("../images/moldedgradientchair/header.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (min-width: 550px) {  
-.header_moldedgradientchair{
+@media (min-width: 550px) {
+  .header_moldedgradientchair {
     width: 100%;
     height: 100vh;
-    background: url('../images/moldedgradientchair/header.jpg');
+    background: url("../images/moldedgradientchair/header.jpg");
     background-size: cover;
     background-position: center center;
-}}
-
-.footerz_moldedgradientchair {
-    z-index: -1;
-    width: 100%;
-    height: 15em;
-    background: url(../images/moldedgradientchair/header.jpg);
-    background-size: cover;
-    background-position: center center;
+  }
 }
 
-
-@media (min-width: 550px) {  
 .footerz_moldedgradientchair {
+  z-index: -1;
+  width: 100%;
+  height: 15em;
+  background: url(../images/moldedgradientchair/header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 550px) {
+  .footerz_moldedgradientchair {
     z-index: -1;
     width: 100%;
     height: 25em;
     background: url(../images/moldedgradientchair/header.jpg);
     background-size: cover;
     background-position: center center;
-}}
+  }
+}
 
-@media (min-width: 550px) {  
-.footerz_moldedgradientchair:hover .fade{
+@media (min-width: 550px) {
+  .footerz_moldedgradientchair:hover .fade {
     z-index: 1;
     position: relative;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .1;
+    opacity: 0.1;
     text-align: center;
-}}
+  }
+}
