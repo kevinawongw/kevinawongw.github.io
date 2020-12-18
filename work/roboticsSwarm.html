@@ -27,6 +27,8 @@
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 
 <body class="work">
@@ -104,124 +106,141 @@
 
             <div class="container">
 
-                <div class="work-middle"><strong>Robotics Swarm Project</strong></div>
-                <br></br>
-                <div class="work-index">
-                    <strong>team.</strong>
-                    <br></br>
-                    <ul class="starlist">
-                        <li>kevina wong</li>
-                        <li>vienna wong</li>
-                        <li>jaskrit singh</li>
-                        <li>sahant setareh</li>
-                    </ul>
-
-                    <strong>technology.</strong>
-                    <br></br>
-                    <ul class="starlist">
-                        <li>python</li>
-                        <li>webots robots simulator</li>
-                    </ul>
-                    <strong>description.</strong>
-                    <br></br>
-                    <p>Our project will use terminal input to read a command. A group of ePuck robots will then create
-                        shapes and figures given the command such as “Circle", "Square", and "Triangle” Given these
-                        commands, the ePuck robots will create the shape as a group while avoiding collisions. Due to
-                        COVID-19, we were unable to implement this with physical robots, so this is implemented with a
-                        robot simulation environment called WeBots. </p>
-
-                    <strong>implementation.</strong>
-                    <br></br>
-                    Each ePuck has it's own controller and is programmed to reach a target goal. We created a dictionary
-                    where the initial pose of the ePuck is the "key", and a tuple of the target pose and it's batch
-                    number is it's "value". Robots and targets are sorted based on distance from origin do determine
-                    which ePuck should go where. Each ePuck begins their movement in 10 second intervals to avoid
-                    collision avoidance. There is also a server that communicates with all of the robots along with the
-                    user input script, so target goals can be posted. The server also allows each robot to post its
-                    coordinates and makes a cookie to keep track of the different robots. If targets have been posted
-                    and we have enough robots, the server maps each robot to a target. Robots can then make get requests
-                    for their targets and if the time for the robot to move has come and the mapping is done, they will
-                    receive a target pose.
-                    <br></br>
-
-                    <strong>demo.</strong>
-                    <br></br>
-                    <video class="medimg" controls>
-                        <source src="../Images/RobotSwarm.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-
-                    <br></br>
-                    <br></br>
-
-                    <strong>improvement.</strong>
-                    <br></br>
-                    Look forward in this project, we would definitely try to find methods of improving ePuck accuracy
-                    when it goes to the target goals. Also, we originally planned to implement natural language
-                    processing into this project where we could have a user verbally say a shape (ie."circle") as the
-                    input. Due to time constraints, this was a feature we were unable to add, but it is something worth
-                    adding in the future. Lastly, more complex shapes and patterns could be a great addition to this
-                    project.
-                    <br></br>
-
+                <div class="typewriter">
+                    <h4 class="work-middle"><strong>Robotics Swarm Project.</strong></h4>
                 </div>
 
-                <br></br>
 
-                <a href="projects.html">
-                    <p class="work-middle">&larr; other projects</p>
-                </a>
-                <a href="https://github.com/kevinawongw/Robotics-Swarm-Project">
-                    <div class="row">
-                        <div class="full columns">
-                            <p class="work-thumb">Project on GitHub &rarr;</p>
+                <br></br>
+                <div class="animate__animated animate__fadeIn">
+                    <div class="work-index">
+                        <strong>team.</strong>
+                        <br></br>
+                        <ul class="starlist">
+                            <li>kevina wong</li>
+                            <li>vienna wong</li>
+                            <li>jaskrit singh</li>
+                            <li>sahant setareh</li>
+                        </ul>
+
+                        <strong>technology.</strong>
+                        <br></br>
+                        <ul class="starlist">
+                            <li>python</li>
+                            <li>webots robots simulator</li>
+                        </ul>
+                        <strong>description.</strong>
+                        <br></br>
+                        <p>Our project will use terminal input to read a command. A group of ePuck robots will then
+                            create
+                            shapes and figures given the command such as “Circle", "Square", and "Triangle” Given these
+                            commands, the ePuck robots will create the shape as a group while avoiding collisions. Due
+                            to
+                            COVID-19, we were unable to implement this with physical robots, so this is implemented with
+                            a
+                            robot simulation environment called WeBots. </p>
+
+                        <strong>implementation.</strong>
+                        <br></br>
+                        Each ePuck has it's own controller and is programmed to reach a target goal. We created a
+                        dictionary
+                        where the initial pose of the ePuck is the "key", and a tuple of the target pose and it's batch
+                        number is it's "value". Robots and targets are sorted based on distance from origin do determine
+                        which ePuck should go where. Each ePuck begins their movement in 10 second intervals to avoid
+                        collision avoidance. There is also a server that communicates with all of the robots along with
+                        the
+                        user input script, so target goals can be posted. The server also allows each robot to post its
+                        coordinates and makes a cookie to keep track of the different robots. If targets have been
+                        posted
+                        and we have enough robots, the server maps each robot to a target. Robots can then make get
+                        requests
+                        for their targets and if the time for the robot to move has come and the mapping is done, they
+                        will
+                        receive a target pose.
+                        <br></br>
+
+                        <strong>demo.</strong>
+                        <br></br>
+                        <video class="medimg" controls>
+                            <source src="../Images/RobotSwarm.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+
+                        <br></br>
+                        <br></br>
+
+                        <strong>improvement.</strong>
+                        <br></br>
+                        Look forward in this project, we would definitely try to find methods of improving ePuck
+                        accuracy
+                        when it goes to the target goals. Also, we originally planned to implement natural language
+                        processing into this project where we could have a user verbally say a shape (ie."circle") as
+                        the
+                        input. Due to time constraints, this was a feature we were unable to add, but it is something
+                        worth
+                        adding in the future. Lastly, more complex shapes and patterns could be a great addition to this
+                        project.
+                        <br></br>
+
+                    </div>
+
+                    <br></br>
+                </div>
+                
+                    <a href="projects.html">
+                        <p class="work-middle">&larr; other projects</p>
+                    </a>
+                    <a href="https://github.com/kevinawongw/Robotics-Swarm-Project">
+                        <div class="row">
+                            <div class="full columns">
+                                <p class="work-thumb">Project on GitHub &rarr;</p>
+                            </div>
                         </div>
+                    </a>
+
+
+                    <div class="smallimg">
+                        <img src="../Images/clouds.gif" />
                     </div>
-                </a>
+                    <br></br>
+                    <div class="row" id="superfooter">
+
+                        <div class="two columns">
+                            <p class="text_desc_title">Email</p>
+                            <p class="text_desc"><a href="mailto:kevinawongw@gmail.com?subject=Let's Talk!">kevinawongw
+                                    @gmail.com</a></p>
+                        </div>
+                        <div class="two columns">
+                            <p class="text_desc_title">Location</p>
+                            <p class="text_desc">Denver, CO</p>
+                        </div>
+                        <div class="two columns">
+                            <p class="text_desc_title">Social</p>
+                            <p class="text_desc">
+                                <a href="http://instagram.com/kevinawongw">Instagram</a><br />
+                                <a href="https://github.com/kevinawongw">GitHub</a><br />
+                                <a href="https://www.linkedin.com/in/kevina-wong-977028180/">LinkedIn</a><br />
+                                <a href="https://boulder.joinhandshake.com/users/12215762">HandShake</a><br />
+                            </p>
+
+                        </div>
+                        <div class="two columns">
+                            <p class="text_desc_title">Credit</p>
+                            <p class="text_desc2">
+                                <a href="https://yasly.com/">Yasley (Design Inspiration)</a><br />
+                                <br></br>
+                                Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a
+                                    href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                            </p>
+                        </div>
 
 
-                <div class="smallimg">
-                    <img src="../Images/clouds.gif" />
+                    </div>
+
+
                 </div>
-                <br></br>
-                <div class="row" id="superfooter">
 
-                    <div class="two columns">
-                        <p class="text_desc_title">Email</p>
-                        <p class="text_desc"><a href="mailto:kevinawongw@gmail.com?subject=Let's Talk!">kevinawongw
-                                @gmail.com</a></p>
-                    </div>
-                    <div class="two columns">
-                        <p class="text_desc_title">Location</p>
-                        <p class="text_desc">Denver, CO</p>
-                    </div>
-                    <div class="two columns">
-                        <p class="text_desc_title">Social</p>
-                        <p class="text_desc">
-                            <a href="http://instagram.com/kevinawongw">Instagram</a><br />
-                            <a href="https://github.com/kevinawongw">GitHub</a><br />
-                            <a href="https://www.linkedin.com/in/kevina-wong-977028180/">LinkedIn</a><br />
-                            <a href="https://boulder.joinhandshake.com/users/12215762">HandShake</a><br />
-                        </p>
-
-                    </div>
-                    <div class="two columns">
-                        <p class="text_desc_title">Credit</p>
-                        <p class="text_desc2">
-                            <a href="https://yasly.com/">Yasley (Design Inspiration)</a><br />
-                            <br></br>
-                            Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a
-                                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-                        </p>
-                    </div>
-
-
-                </div>
-
-
-            </div>
-
-            <script src="../js/main.js"></script>
+                <script src="../js/main.js"></script>
 
 </body>
 

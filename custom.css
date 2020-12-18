@@ -6,6 +6,84 @@ img {
   box-sizing: border-box;
 }
 
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(146, 163, 141); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 5s steps(40, end),
+    blink-caret 1s step-end 10s;
+  /* margin-top: .5em; */
+  text-align: left;
+  font-size: 2.5em;
+  font-family: "Yeseva One", cursive;
+  color: #7b8d7c;
+  /* margin-bottom: 0.05em; */
+  text-transform: lowercase;
+}
+
+.typewriter h2{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(146, 163, 141); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 6s steps(37, end),
+    blink-caret 1s step-end 10s;
+  /* margin-top: .5em; */
+  text-align: left;
+  font-size: 1.7em;
+  font-family: "Yeseva One", cursive;
+  color: #000;
+  margin-bottom: 1.5em;
+  text-transform: lowercase;
+}
+
+.typewriter h3{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(146, 163, 141); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 6s steps(37, end),
+    blink-caret 1s step-end 10s;
+  /* margin-top: .5em; */
+  text-align: left;
+  font-size: 1.7em;
+  color: #000;
+  margin-bottom: 1.5em;
+  text-transform: lowercase;
+}
+
+.typewriter h4{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(146, 163, 141); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 6s steps(37, end),
+    blink-caret 1s step-end 10s;
+  /* margin-top: .5em; */
+  text-align: left;
+  font-family: "JetBrains Mono", monospace;;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(146, 163, 141) }
+}
+
 .pinkimg {
   position: relative;
   max-width: 100%;
@@ -127,6 +205,7 @@ strong {
     background-repeat: no-repeat;
     background-position: center center;
   }
+
 
   hr {
     color: var(--dark);
